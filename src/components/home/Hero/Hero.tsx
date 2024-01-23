@@ -8,7 +8,7 @@ export const Hero = () => {
         <div className="circle-blr"></div>
       </div>
       <div className="hero__wrapper">
-        <Image src={require("../../../../public/net.svg")}></Image>
+        <Image src={require("../../../../public/net.svg")} alt={""}></Image>
         <div>
           <h1 className="intro-header">Hello, I am a</h1>
           <h1 className="intro-main">A Software Engineer</h1>

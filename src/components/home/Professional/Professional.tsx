@@ -45,7 +45,7 @@ const Professional = () => {
           </p>
         </div>
         <div className="professional__content">
-          <Image src={ExperienceImage} />
+          <Image src={ExperienceImage} alt={""} />
           <div className="job-content">
             {data.map((item) => (
               <div className="job-main">

@@ -7,7 +7,7 @@ import clsx from "clsx";
 
 const Skills = () => {
   const rateRef = useRef(null);
-  const [inView, setIsInView] = useState(null);
+  const [inView, setIsInView] = useState(false);
 
   const stylesTwo = clsx({
     isInView: inView,
@@ -33,7 +33,15 @@ const Skills = () => {
       { threshold: 0.2 }
     );
 
-    observer.observe(rateRef.current);
+    if (rateRef.current) {
+      observer.observe(rateRef.current);
+    }
+
+    return () => {
+      if (rateRef.current) {
+        observer.unobserve(rateRef.current);
+      }
+    };
   }, []);
   return (
     <div className="skills">
@@ -87,7 +95,7 @@ const Skills = () => {
                 </div>
               </div>
             </div>
-            <Image src={About}></Image>
+            <Image src={About} alt={""}></Image>
           </div>
         </div>
       </div>
