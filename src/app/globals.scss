@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+// Global Styles
+
+$bg_clr: #04162e;
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  width: 100%;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../public/fonts/Gilroy-Bold.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../public/fonts/Gilroy-Light.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../public/fonts/Gilroy-Medium.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url("../../public/fonts/Gilroy-Regular.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Azonix";
+  src: url("../../public/fonts/Azonix.otf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Gilroy", sans-serif;
+}
+
+body {
+  background-color: $bg_clr;
+  font-family: "Gilroy", serif !important;
+}

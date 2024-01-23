@@ -1,0 +1,106 @@
+.skills {
+  padding: 5rem 1rem;
+  overflow: hidden;
+
+  &__wrapper {
+    max-width: 1100px;
+    margin: auto;
+
+    .skills_content {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem;
+      margin-top: 2rem;
+
+      img {
+        border-radius: 10px;
+        width: 100%;
+      }
+      .skills-con {
+        display: flex;
+        align-items: center;
+        height: 100%;
+        .skills-con-main {
+          width: 100%;
+        }
+        .skills-item {
+          display: flex;
+          align-items: center;
+          background: #19376d;
+          width: 100%;
+          padding: 1rem;
+          border-radius: 10px;
+          margin-top: 1rem;
+          .skills-item-con {
+            width: 100%;
+
+            .skill-tag {
+              color: #a5d7e8;
+              font-weight: 200;
+            }
+          }
+          .bar-container {
+            width: 100%;
+            border: 1px solid #4a70b8;
+            height: 8px;
+            border-radius: 6px;
+
+            div {
+              width: 0;
+              background: #6b8ac4;
+              height: 100%;
+              transition: 3s ease;
+              border-radius: 6px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.isInView {
+  width: 90% !important;
+  transition: 300ms ease;
+}
+
+.isInViewTwo {
+  width: 90% !important;
+  transition: 300ms ease;
+}
+
+.isInViewThree {
+  width: 80% !important;
+  transition: 300ms ease;
+}
+
+.isInViewFour {
+  width: 85% !important;
+  transition: 300ms ease;
+}
+
+/* Media query for tablets */
+@media (max-width: 768px) {
+  .skills_content {
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+}
+
+/* Media query for mobile */
+@media (max-width: 567px) {
+  .skills_content {
+    gap: 1rem;
+    grid-template-columns: repeat(1, 1fr) !important;
+  }
+
+  .skills-con-main {
+    h2 {
+      font-size: 1.2rem !important;
+    }
+
+    p {
+      font-size: 0.8rem !important;
+      margin-top: 0.3rem !important;
+    }
+  }
+}
