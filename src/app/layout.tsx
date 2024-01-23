@@ -22,13 +22,17 @@ export default function RootLayout({
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <>
       <html lang="en">
-        <div>
-          <Header />
-          <body>{children}</body>
-        </div>
+        <head>{/* Add metadata here if needed */}</head>
+        <body>
+          <div>
+            <Header />
+            {children}
+          </div>
+        </body>
       </html>
     </>
   );

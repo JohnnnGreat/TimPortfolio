@@ -18,7 +18,7 @@ const Services = () => {
           </h1>
         </div>
         <div className="services-container grid">
-          <div className="services-card" data-aos="fade-up">
+          <div className="services-card">
             <div>
               <Image className="services-icon" src={Design} alt=""></Image>
               <h1>Problem Solving</h1>
