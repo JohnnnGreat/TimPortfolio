@@ -66,7 +66,10 @@ const Skills = () => {
                     <div className="bar-container">
                       <div className={styles}></div>
                     </div>
-                    <h1 className="skill-tag">Backend Development</h1>
+                    <div className="skill-text flex justify-between text-white">
+                      <h1 className="skill-tag">Backend Development</h1>
+                      <h1>80%</h1>
+                    </div>
                   </div>
                 </div>
                 <div className="skills-item">
@@ -74,7 +77,10 @@ const Skills = () => {
                     <div className="bar-container">
                       <div className={stylesTwo}></div>
                     </div>
-                    <h1 className="skill-tag">Version Control</h1>
+                    <div className="skill-text flex justify-between text-white">
+                      <h1 className="skill-tag">Version Control</h1>
+                      <h1>80%</h1>
+                    </div>
                   </div>
                 </div>
                 <div className="skills-item">

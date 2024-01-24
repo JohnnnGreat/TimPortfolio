@@ -25,9 +25,9 @@ export const Hero = () => {
         </div>
       </div>
       <div className="move">
-        <div className="container">
+        <a href="#services" className="container">
           <div className="indic"></div>
-        </div>
+        </a>
       </div>
     </div>
   );

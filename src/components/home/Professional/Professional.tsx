@@ -30,7 +30,7 @@ const Professional = () => {
     },
   ];
   return (
-    <div className="professional">
+    <div id="experience" className="professional">
       <div className="circle-blur">
         <div className="circle"></div>
       </div>

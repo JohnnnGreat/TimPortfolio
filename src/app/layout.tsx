@@ -10,6 +10,8 @@ import "@/components/layout/Header.scss";
 import "@/components/home/Services/Services.scss";
 import "@/components/home/Professional/Professional.scss";
 import "@/components/home/Skills/Skills.scss";
+import "@/components/home/Education/Education.scss";
+import "@/components/home/About/About.scss";
 import Header from "../components/layout/Header";
 
 const inter = Inter({ subsets: ["latin"] });
