@@ -91,6 +91,11 @@
             border-radius: 40px;
             border: 1px solid #a5d7e8;
             color: #77a7b8;
+
+            @media (max-width: 567px) {
+              padding: 0.7rem 1.3rem;
+              font-size: 14px;
+            }
           }
         }
       }
