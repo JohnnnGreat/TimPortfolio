@@ -38,7 +38,9 @@
       grid-template-columns: repeat(2, 1fr);
       margin-top: 3rem;
       gap: 3rem;
-
+      @media (max-width: 567px) {
+        grid-template-columns: 1fr;
+      }
       img {
         border-radius: 10px;
       }
@@ -71,10 +73,6 @@
             }
           }
         }
-      }
-
-      @media (max-width: 567px) {
-        grid-template-columns: 1fr;
       }
     }
   }

@@ -1,10 +1,17 @@
+import { useState } from "react";
 import { navigations } from "../../data";
+import clsx from "clsx";
 const Header = () => {
+  const [openNav, setOpenNav] = useState(false);
+
+  const nav = clsx({
+    open: openNav,
+  });
   return (
     <div className="header">
       <div className="header__wrapper flex">
         <h1 className="header-logo">Timothy Zinwota</h1>
-        <nav>
+        <nav className={nav}>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
@@ -12,6 +19,9 @@ const Header = () => {
             stroke-width="1.5"
             stroke="currentColor"
             className="close"
+            onClick={() => {
+              setOpenNav(false);
+            }}
           >
             <path
               stroke-linecap="round"
@@ -23,7 +33,14 @@ const Header = () => {
           <ul>
             {navigations.map((item, index) => (
               <li key={index}>
-                <a href={item.path}>{item.navTag}</a>
+                <a
+                  onClick={() => {
+                    setOpenNav(false);
+                  }}
+                  href={item.path}
+                >
+                  {item.navTag}
+                </a>
               </li>
             ))}
             <li>
@@ -38,6 +55,9 @@ const Header = () => {
           stroke-width="1.5"
           stroke="currentColor"
           className="menu"
+          onClick={() => {
+            setOpenNav(true);
+          }}
         >
           <path
             stroke-linecap="round"

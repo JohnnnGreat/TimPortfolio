@@ -40,10 +40,58 @@
       grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
       margin-top: 2rem;
+
+      @media (max-width: 567px) {
+        grid-template-columns: 1fr;
+      }
       .about-content {
         p {
           color: #77a7b8;
           font-weight: 300;
+        }
+
+        a {
+          background: #fff;
+          padding: 1rem 2rem;
+          border-radius: 50px;
+          display: inline-block;
+          margin-top: 1rem;
+
+          @media (max-width: 567px) {
+            width: 100% !important;
+            display: block;
+            padding: 0.8rem;
+          }
+        }
+      }
+
+      .interest {
+        h1 {
+          font-size: 30px;
+          color: #77a7b8;
+          font-weight: 200;
+        }
+
+        .divider {
+          height: 1px;
+          width: 100%;
+          background: gray;
+          margin-top: 1rem;
+        }
+
+        ul {
+          margin-top: 1rem;
+
+          display: flex;
+          flex-wrap: wrap;
+          gap: 1rem;
+          li {
+            width: auto;
+            padding: 1rem 2rem;
+            border-radius: 40px;
+            border: 1px solid #a5d7e8;
+            color: #77a7b8;
+          }
         }
       }
     }

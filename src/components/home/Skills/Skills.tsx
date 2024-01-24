@@ -68,7 +68,7 @@ const Skills = () => {
                     </div>
                     <div className="skill-text flex justify-between text-white">
                       <h1 className="skill-tag">Backend Development</h1>
-                      <h1>80%</h1>
+                      <h1>90%</h1>
                     </div>
                   </div>
                 </div>
@@ -79,7 +79,7 @@ const Skills = () => {
                     </div>
                     <div className="skill-text flex justify-between text-white">
                       <h1 className="skill-tag">Version Control</h1>
-                      <h1>80%</h1>
+                      <h1>90%</h1>
                     </div>
                   </div>
                 </div>
@@ -88,7 +88,10 @@ const Skills = () => {
                     <div className="bar-container">
                       <div className={stylesThree}></div>
                     </div>
-                    <h1 className="skill-tag">Database Management</h1>
+                    <div className="skill-text flex justify-between text-white">
+                      <h1 className="skill-tag">Database Management</h1>
+                      <h1>80%</h1>
+                    </div>
                   </div>
                 </div>
                 <div className="skills-item">
@@ -96,7 +99,10 @@ const Skills = () => {
                     <div className="bar-container">
                       <div className={stylesFour}></div>
                     </div>
-                    <h1 className="skill-tag">Frontend Development</h1>
+                    <div className="skill-text flex justify-between text-white">
+                      <h1 className="skill-tag">Frontend Development</h1>
+                      <h1>80%</h1>
+                    </div>
                   </div>
                 </div>
               </div>

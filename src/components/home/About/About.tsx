@@ -13,7 +13,7 @@ const About = () => {
     "Real-time Computing Systems",
   ];
   return (
-    <div className="about">
+    <div id="about" className="about">
       <div className="about__wrapper">
         <div className="about-header">
           <h1 className="about-header__main" data-aos="fade-up">
@@ -22,16 +22,19 @@ const About = () => {
         </div>
 
         <div className="about-details">
-          <div className="about-content">
+          <div data-aos="fade-right" className="about-content">
             <p>
               Hello, I'm Timothy Zinwota, and I'm passionate about exploring the
               realms of technology and innovation. As a dedicated enthusiast in
               the field of computer science, my interests span a wide spectrum
               of cutting-edge domains.
             </p>
+            <a target="_blank" href="/CVTim.pdf">
+              Download CV
+            </a>
           </div>
 
-          <div className="interest">
+          <div data-aos="fade-left" className="interest">
             <h1>Areas of Interest</h1>
 
             <div className="divider"></div>

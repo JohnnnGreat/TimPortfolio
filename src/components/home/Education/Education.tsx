@@ -32,7 +32,7 @@ const Education = () => {
           </p>
         </div>
         <div className="education__details">
-          <div className="education-content">
+          <div data-aos="fade-right" className="education-content">
             {" "}
             <h1>BSc. Computer Science Nov. 2016 - Nov. 2021</h1>
             <p>
@@ -47,7 +47,7 @@ const Education = () => {
               </ul>
             </div>
           </div>
-          <Image src={EducationImage} alt={""}></Image>
+          <Image data-aos="fade-left" src={EducationImage} alt={""}></Image>
         </div>
       </div>
     </div>

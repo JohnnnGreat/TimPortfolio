@@ -39,6 +39,11 @@
       grid-template-columns: repeat(2, 1fr);
       margin-top: 2rem;
       gap: 1rem;
+
+      @media (max-width: 567px) {
+        grid-template-columns: 1fr;
+      }
+
       .education-content {
         h1 {
           font-size: 24px;
