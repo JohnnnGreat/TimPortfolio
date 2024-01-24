@@ -8,6 +8,7 @@ import Preloader from "@/components/Preloader/Preloader";
 import { useEffect, useState } from "react";
 import Education from "@/components/home/Education/Education";
 import About from "@/components/home/About/About";
+import Head from "next/head";
 export default function Home() {
   const [showLoader, setShowLoader] = useState(true);
   useEffect(() => {
@@ -17,6 +18,14 @@ export default function Home() {
   }, []);
   return (
     <>
+      <Head>
+        <title>Timothy Zinwota</title>
+        <meta
+          name="description"
+          content="I'm passionate about exploring the
+              realms of technology and innovation."
+        />
+      </Head>
       {showLoader && <Preloader />}
 
       <div>
