@@ -18,7 +18,6 @@ export default function Home() {
   }, []);
   return (
     <>
-      <Head></Head>
       {showLoader && <Preloader />}
 
       <div>
