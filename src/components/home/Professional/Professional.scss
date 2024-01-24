@@ -61,6 +61,10 @@
             font-size: 24px;
             color: #a5d7e8;
             font-weight: 300;
+
+            @media (max-width: 567px) {
+              font-size: 18px;
+            }
           }
 
           div {
@@ -70,6 +74,9 @@
             p {
               color: #4f7481;
               font-weight: 100;
+              @media (max-width: 567px) {
+                font-size: 15px;
+              }
             }
           }
         }
