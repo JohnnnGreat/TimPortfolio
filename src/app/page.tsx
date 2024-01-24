@@ -18,14 +18,7 @@ export default function Home() {
   }, []);
   return (
     <>
-      <Head>
-        <title>Timothy Zinwota</title>
-        <meta
-          name="description"
-          content="I'm passionate about exploring the
-              realms of technology and innovation."
-        />
-      </Head>
+      <Head></Head>
       {showLoader && <Preloader />}
 
       <div>

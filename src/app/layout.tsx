@@ -36,7 +36,15 @@ export default function RootLayout({
   return (
     <>
       <html lang="en">
-        <head>{/* Add metadata here if needed */}</head>
+        <head>
+          {/* Add metadata here if needed */}
+          <title>Timothy Zinwota</title>
+          <meta
+            name="description"
+            content="I'm passionate about exploring the
+              realms of technology and innovation."
+          />
+        </head>
         <body>
           <div>
             <Header />
