@@ -63,46 +63,22 @@ const Skills = () => {
               <div className="skills-con-main">
                 <div ref={rateRef} className="skills-item">
                   <div className="skills-item-con">
-                    <div className="bar-container">
-                      <div className={styles}></div>
-                    </div>
-                    <div className="skill-text flex justify-between text-white">
-                      <h1 className="skill-tag">Backend Development</h1>
-                      <h1>90%</h1>
-                    </div>
+                    <h1 className="skill-tag">Backend Development</h1>
                   </div>
                 </div>
                 <div className="skills-item">
                   <div className="skills-item-con">
-                    <div className="bar-container">
-                      <div className={stylesTwo}></div>
-                    </div>
-                    <div className="skill-text flex justify-between text-white">
-                      <h1 className="skill-tag">Version Control</h1>
-                      <h1>90%</h1>
-                    </div>
+                    <h1 className="skill-tag">Version Control</h1>
                   </div>
                 </div>
                 <div className="skills-item">
                   <div className="skills-item-con">
-                    <div className="bar-container">
-                      <div className={stylesThree}></div>
-                    </div>
-                    <div className="skill-text flex justify-between text-white">
-                      <h1 className="skill-tag">Database Management</h1>
-                      <h1>80%</h1>
-                    </div>
+                    <h1 className="skill-tag">Database Management</h1>
                   </div>
                 </div>
                 <div className="skills-item">
                   <div className="skills-item-con">
-                    <div className="bar-container">
-                      <div className={stylesFour}></div>
-                    </div>
-                    <div className="skill-text flex justify-between text-white">
-                      <h1 className="skill-tag">Frontend Development</h1>
-                      <h1>80%</h1>
-                    </div>
+                    <h1 className="skill-tag">Frontend Development</h1>
                   </div>
                 </div>
               </div>

@@ -1,5 +1,5 @@
 import React from "react";
-import EducationImage from "../../../../public/education-img.jpg";
+import ImageEd from "../../../../public/experience-img.jpg";
 import Image from "next/image";
 
 const Education = () => {
@@ -47,7 +47,7 @@ const Education = () => {
               </ul>
             </div>
           </div>
-          <Image data-aos="fade-left" src={EducationImage} alt={""}></Image>
+          <Image data-aos="fade-left" src={ImageEd} alt={""}></Image>
         </div>
       </div>
     </div>

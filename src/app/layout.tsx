@@ -12,6 +12,7 @@ import "@/components/home/Professional/Professional.scss";
 import "@/components/home/Skills/Skills.scss";
 import "@/components/home/Education/Education.scss";
 import "@/components/home/About/About.scss";
+import "@/components/home/Contact/Contact.scss";
 import Header from "../components/layout/Header";
 import Email from "../../public/sm/entypo_email.svg";
 import Github from "../../public/sm/ri_github-line.svg";

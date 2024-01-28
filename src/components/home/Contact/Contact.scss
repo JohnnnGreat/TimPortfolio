@@ -1,0 +1,39 @@
+.contact {
+  padding: 5rem 1rem;
+  overflow: hidden;
+
+  &__wrapper {
+    max-width: 600px;
+    margin: auto;
+
+    form {
+      width: 100%;
+
+      input,
+      textarea {
+        display: block;
+        border: 1px solid #77a7b8;
+        padding: 1rem 1rem;
+        border-radius: 20px;
+        background-color: transparent;
+        width: 100%;
+        margin-top: 1rem;
+        outline: none;
+        color: #77a7b8;
+        font-weight: 200;
+        &:placeholder {
+          font-weight: 200 !important;
+          color: #77a7b8 !important;
+        }
+      }
+      button {
+        width: 100%;
+        padding: 1rem;
+        border-radius: 20px;
+        background: #77a7b8;
+        color: #fff;
+        margin-top: 1rem;
+      }
+    }
+  }
+}

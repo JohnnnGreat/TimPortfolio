@@ -9,8 +9,14 @@ import { useEffect, useState } from "react";
 import Education from "@/components/home/Education/Education";
 import About from "@/components/home/About/About";
 import Head from "next/head";
+import Contact from "@/components/home/Contact/Contact";
+
 export default function Home() {
+  // Boolean value to control preloader
+  // value is set to true by default
+
   const [showLoader, setShowLoader] = useState(true);
+
   useEffect(() => {
     setTimeout(() => {
       setShowLoader(false);
@@ -21,12 +27,26 @@ export default function Home() {
       {showLoader && <Preloader />}
 
       <div>
+        {/* Hero Section */}
         <Hero />
+
+        {/* Services Section */}
         <Services />
+
+        {/*  About Section */}
         <About />
+
+        {/* Professional Experience Section */}
         <ProfessionalExp />
+
+        {/* Skills Section */}
         <Skills />
+
+        {/* Education Details Section */}
         <Education />
+
+        {/* Contact Page */}
+        <Contact />
       </div>
     </>
   );

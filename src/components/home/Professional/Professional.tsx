@@ -1,5 +1,5 @@
 import React from "react";
-import ExperienceImage from "../../../../public/experience-img.jpg";
+import ExperienceImage from "../../../../public/Tim.jpg";
 import Image from "next/image";
 
 const Professional = () => {
@@ -11,19 +11,19 @@ const Professional = () => {
       role: "Co-founder and CTO",
     },
     {
-      id: 1,
+      id: 2,
       company: "Evovo Autos, Netherlands",
       year: "July, 2021 - Jan, 2022",
       role: "Data Scientist",
     },
     {
-      id: 1,
+      id: 3,
       company: "Raaxo Synergy, Nigeria",
       year: "2020 Sept. - date",
       role: "Chief Technological Officer Limited",
     },
     {
-      id: 1,
+      id: 4,
       company: "Brainstack Technologies, Nigeria",
       year: "2019 Oct. - 2020 Aug.",
       role: "Embedded Systems Engineer",
